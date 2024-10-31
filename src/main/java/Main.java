@@ -20,7 +20,9 @@ public class Main {
     System.out.println("Ферма в первоначальном виде: ");
     System.out.println(farmInit);
 
-    farmInit.addFarmAnimal(Animal.CAT);  // метод добавления животных в ферму
+    // метод добавления животных в ферму
+    farmInit.addFarmAnimal(Animal.CAT);
+    farmInit.addFarmAnimal(Animal.COW);
     farmInit.addFarmAnimal(Animal.DOG, "Майло");
     farmInit.addFarmAnimal(Animal.CAT, "Туман");
     farmInit.addFarmAnimal(Animal.DOG, "Туман");

@@ -75,7 +75,7 @@ public class AnimalFarm {
   public String toString () {
     StringBuilder stringBuilder = new StringBuilder();
     for (String farmAnimal : farmAnimals) {
-      String printFarmAnimal = farmAnimal.replace(" ", ":");
+      String printFarmAnimal = farmAnimal.replace(":", " ");
       stringBuilder.append(" ^.^ ").append(printFarmAnimal).append(" ^.^ ").append("\n");
     }
     return stringBuilder.toString();
